@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="257" id="KGk-i7-Jjw" customClass="CustomCellByXib" customModule="TableViewCellPractice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="257"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="257"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmD-xT-Su0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="257"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banhchung" translatesAutoresizingMaskIntoConstraints="NO" id="IfX-ig-9Dn">
+                                <rect key="frame" x="7" y="12" width="135" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IfX-ig-9Dn" secondAttribute="height" id="qwy-u5-DPL"/>
+                                    <constraint firstAttribute="width" constant="135" id="yJa-gx-2xk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHUNG CAKE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2I-0x-ZII">
+                                <rect key="frame" x="152" y="5" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="bhv-qA-P4c"/>
+                                    <constraint firstAttribute="height" constant="30" id="ycN-18-YVW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dW8-7R-i2t">
+                                <rect key="frame" x="152" y="45" width="240" height="191"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="LQh-Zp-gfq"/>
+                                </constraints>
+                                <mutableString key="text">Bánh chưng ("chưng" trong "chưng cất", nghĩa là hấp nước, nhưng thực tế bánh được nấu bằng cách luộc) là một loại bánh truyền thống của dân tộc Việt nhằm thể hiện lòng biết ơn của con cháu đối với cha ông và đất trời xứ sở. Nguyên liệu làm bánh chưng gồm gạo nếp, đậu xanh, thịt lợn, lá dong và bánh thường được làm vào các dịp Tết cổ truyền của dân tộc Việt, cũng như ngày giỗ tổ Hùng Vương) (mùng 10 tháng 3 âm lịch).</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyB-ci-wS3">
+                                <rect key="frame" x="177" y="236" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="2mG-Mt-sRQ"/>
+                                    <constraint firstAttribute="height" constant="21" id="hq6-et-lBh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hearted" translatesAutoresizingMaskIntoConstraints="NO" id="9vc-Cx-efT">
+                                <rect key="frame" x="355" y="8" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="36e-Lg-6Gj"/>
+                                    <constraint firstAttribute="height" constant="30" id="wK5-nU-3q6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="G2I-0x-ZII" firstAttribute="leading" secondItem="IfX-ig-9Dn" secondAttribute="trailing" constant="10" id="1LX-8A-WTG"/>
+                            <constraint firstItem="IfX-ig-9Dn" firstAttribute="top" secondItem="bmD-xT-Su0" secondAttribute="top" constant="12" id="3dr-bt-hBr"/>
+                            <constraint firstItem="9vc-Cx-efT" firstAttribute="top" secondItem="bmD-xT-Su0" secondAttribute="top" constant="8" id="4gj-q0-Bdb"/>
+                            <constraint firstItem="dyB-ci-wS3" firstAttribute="leading" secondItem="IfX-ig-9Dn" secondAttribute="trailing" constant="35" id="Soz-dv-vWO"/>
+                            <constraint firstAttribute="trailing" secondItem="9vc-Cx-efT" secondAttribute="trailing" constant="8" id="Thl-Vd-aAl"/>
+                            <constraint firstItem="dyB-ci-wS3" firstAttribute="top" secondItem="dW8-7R-i2t" secondAttribute="bottom" id="ahq-Ir-GFD"/>
+                            <constraint firstItem="G2I-0x-ZII" firstAttribute="top" secondItem="bmD-xT-Su0" secondAttribute="top" constant="5" id="gzM-oa-DjY"/>
+                            <constraint firstItem="IfX-ig-9Dn" firstAttribute="leading" secondItem="bmD-xT-Su0" secondAttribute="leading" constant="7" id="hZg-2l-VhK"/>
+                            <constraint firstItem="dW8-7R-i2t" firstAttribute="top" secondItem="G2I-0x-ZII" secondAttribute="bottom" constant="10" id="sEU-43-f3p"/>
+                            <constraint firstItem="dW8-7R-i2t" firstAttribute="leading" secondItem="IfX-ig-9Dn" secondAttribute="trailing" constant="10" id="tFr-OE-3AS"/>
+                            <constraint firstAttribute="bottom" secondItem="dyB-ci-wS3" secondAttribute="bottom" id="w0B-4l-lFX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="bmD-xT-Su0" secondAttribute="bottom" id="4fk-VJ-kKT"/>
+                    <constraint firstItem="bmD-xT-Su0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ByX-Rb-Vqk"/>
+                    <constraint firstItem="bmD-xT-Su0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="F5c-oX-SdX"/>
+                    <constraint firstAttribute="trailing" secondItem="bmD-xT-Su0" secondAttribute="trailing" id="x8r-u6-iiF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="bmD-xT-Su0" id="c8B-J8-yVo"/>
+                <outlet property="likeBut" destination="9vc-Cx-efT" id="frE-BL-LuB"/>
+            </connections>
+            <point key="canvasLocation" x="190.57971014492756" y="140.95982142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banhchung" width="640" height="640"/>
+        <image name="hearted" width="100" height="100"/>
+    </resources>
+</document>
